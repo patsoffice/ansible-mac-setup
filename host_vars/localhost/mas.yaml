@@ -1,0 +1,7 @@
+---
+mas_signin_dialog: no
+mas_upgrade_all_apps: yes
+mas_installed_apps:
+  - { id: 419330170, name: "Moom" }
+  - { id: 1176895641, name: "Spark - Love your email again" }
+  # - { id: 497799835, name: "Xcode" }

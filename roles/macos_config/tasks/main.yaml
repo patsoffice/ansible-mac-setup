@@ -1,0 +1,41 @@
+---
+- name: check the current display sleep time
+  command: systemsetup -getdisplaysleep
+  changed_when: false
+  become: yes
+  register: current_display_sleep_time
+
+- name: set the display sleep time
+  command: systemsetup -setdisplaysleep {{ macos_display_sleep_time }}
+  become: yes
+  when: "'Display Sleep: {{ macos_display_sleep_time }}' != '{{ current_display_sleep_time.stdout.replace('after ', '').replace('minutes', '') }}'"
+
+- name: check the current timezone
+  command: systemsetup -gettimezone
+  changed_when: false
+  become: yes
+  register: current_timezone
+
+- name: set the timezone
+  command: systemsetup -settimezone {{ macos_timezone }}
+  become: yes
+  when: "'Time Zone: {{ macos_timezone }}' != '{{ current_timezone.stdout }}'"
+
+- name: check flags for the user library folder
+  changed_when: false
+  command: ls -lOd ~/Library
+  register: library_flags
+
+- name: unhide the user library folder
+  command: chflags nohidden ~/Library
+  when: "'hidden' in library_flags"
+
+- name: set operating system defaults
+  plist:
+    dest: "{{ item.domain }}"
+    # Note that we must access values using the square brackets or Ansible
+    # casts all values to strings
+    values: "{{ item['values'] }}"
+    container: "{{ item.container | default(None) }}"
+  become: "{{ item.become | default(false) }}"
+  with_items: "{{ macos_os_defaults }}"

@@ -1,0 +1,21 @@
+---
+- name: install alfred
+  homebrew_cask:
+    name: alfred
+    state: present
+
+- name: ensure the alfred settings directory exists
+  file:
+    path: ~/Library/Application Support/Alfred 3
+    state: directory
+
+- name: install preferences
+  copy:
+    src: alfred3/Alfred.alfredpreferences/
+    dest: ~/Library/Application Support/Alfred 3
+
+- name: install alfred license key
+  copy:
+    src: alfred3/license/
+    dest: ~/Library/Application Support/Alfred 3
+    decrypt: true

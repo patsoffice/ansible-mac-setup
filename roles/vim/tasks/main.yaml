@@ -1,0 +1,14 @@
+- name: create the vim package directory
+  file: 
+    path: ~/.vim.bundle
+    state: directory
+    mode: 0755
+
+- name: install vundle package manager
+  git:
+    repo: https://github.com/gmarik/Vundle.vim.git
+    dest: ~/.vim/bundle/Vundle.vim
+
+- name: install all vim plugins using vundle
+  command: vim +PluginInstall +qall
+  changed_when: false

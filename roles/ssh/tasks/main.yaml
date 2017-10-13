@@ -1,0 +1,12 @@
+---
+- name: create ssh directory
+  file:
+    path: ~/.ssh
+    state: directory
+    mode: 0700
+
+- name: install ssh configs and keys
+  copy:
+    src: ssh/
+    dest: ~/.ssh
+    mode: 0600

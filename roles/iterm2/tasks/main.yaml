@@ -1,0 +1,10 @@
+---
+- name: install iterm2 config
+  copy:
+    src: iterm2/
+    dest: ~/Library/Preferences
+    mode: 0600
+
+- name: read the iterm2 config
+  command: defaults read com.googlecode.iterm2
+  changed_when: false

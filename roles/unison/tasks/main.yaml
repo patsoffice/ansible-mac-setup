@@ -1,0 +1,36 @@
+---
+- name: install unison
+  homebrew:
+    name: unison
+    state: present
+
+- name: ensure the local directories exists
+  file:
+    path: "{{ item }}"
+    state: directory
+  with_items:
+    - ~/.unison
+    - ~/Library/LaunchAgents
+
+- name: install the unison config
+  copy:
+    src: files/unison/default.prf
+    dest: ~/.unison
+
+- name: install launch agent config file
+  copy:
+    src: files/unison/local.unison-file-sync.plist
+    dest: ~/Library/LaunchAgents
+
+- name: check if the launch agent is installed
+  command: launchctl list local.unison-file-sync
+  register: launch_agent_installed
+  ignore_errors: True
+
+- name: load the launch agent
+  command: launchctl load ~/Library/LaunchAgents/local.unison-file-sync.plist
+  when: launch_agent_installed|failed
+
+- name: start the launch agent
+  command: launchctl start local.unison-file-sync
+  changed_when: false

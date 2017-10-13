@@ -1,0 +1,31 @@
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - 1password
+  # - adobe-illustrator-cc
+  # - adobe-indesign-cc
+  # - adobe-photoshop-cc
+  - aerial
+  - alfred
+  # - amazon-music
+  # - blender
+  # - calibre
+  # - clover-configurator
+  - disk-inventory-x
+  - docker
+  - font-menlo-for-powerline
+  # - gimp
+  - google-chrome
+  - handbrake
+  - iterm2
+  # - java
+  - karabiner-elements
+  # - makemkv
+  - odrive
+  - slack
+  # - steam
+  - sublime-text
+  # - transmission
+  # - unity
+  # - vlc
+  # - vmware-fusion
+  - vnc-viewer

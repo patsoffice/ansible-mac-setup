@@ -1,0 +1,10 @@
+---
+- name: set moom defaults
+  plist:
+    dest: "{{ item.domain }}"
+    # Note that we must access values using the square brackets or Ansible
+    # casts all values to strings
+    values: "{{ item['values'] }}"
+    container: "{{ item.container | default(None) }}"
+  become: "{{ item.become | default(false) }}"
+  with_items: "{{ moom_defaults }}"

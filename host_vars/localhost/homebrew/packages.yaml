@@ -1,0 +1,21 @@
+---
+homebrew_installed_packages:
+  - awscli
+  - dockutil
+  - git
+  - go
+  # - go-swagger
+  - htop
+  - loginitems
+  - mas
+  - nasm
+  - qemu
+  - rsync
+  - rust
+  - vim:
+    name: vim
+    options: with-lua
+  - unison
+  - wget
+  - xz
+  - zsh-completions

@@ -1,0 +1,6 @@
+---
+moom_defaults:
+  - domain: com.manytricks.Moom
+    values:
+      Application Mode: 1
+      Stealth Mode: 1

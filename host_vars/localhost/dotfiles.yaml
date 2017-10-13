@@ -1,0 +1,11 @@
+---
+dotfiles_repo: "https://github.com/patsoffice/dotfiles.git"
+dotfiles_repo_accept_hostkey: no
+dotfiles_repo_local_destination: "~/.dotfiles"
+dotfiles_home: "~"
+dotfiles_files:
+  - .config/karabiner
+  - .gitconfig
+  - .gitignore
+  - .vimrc
+  - .zshrc

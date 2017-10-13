@@ -1,0 +1,5 @@
+---
+- name: geerlingguy.dotfiles
+- name: geerlingguy.homebrew
+- name: geerlingguy.mas
+- name: hnakamur.osx-login-shell

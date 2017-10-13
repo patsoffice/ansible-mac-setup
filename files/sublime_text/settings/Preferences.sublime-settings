@@ -1,0 +1,11 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"font_face": "Menlo for Powerline",
+    "font_size": 12,
+
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"theme": "Soda Dark.sublime-theme"
+}

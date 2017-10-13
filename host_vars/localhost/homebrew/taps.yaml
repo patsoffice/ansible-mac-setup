@@ -1,0 +1,15 @@
+---
+homebrew_taps:
+  - buo/cask-upgrade
+  - caskroom/cask
+  - caskroom/drivers
+  - caskroom/eid
+  - caskroom/fonts
+  - caskroom/versions
+  - eugenmayer/dockersync
+  - homebrew/boneyard
+  - homebrew/completions
+  - homebrew/core
+  - homebrew/dupes
+  - homebrew/versions
+  - OJFord/formulae

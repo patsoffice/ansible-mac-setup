@@ -1,0 +1,24 @@
+---
+# Dock applications
+dock_apps:
+  - iTerm
+  - 1Password 6
+  - Google Chrome
+  - Sublime Text
+  - Spark
+  - Slack
+  - Amazon Music
+  - Steam
+  - Godot
+  - Unity
+  - Blender
+  - Messages
+  - App Store
+  - System Preferences
+
+# Dock folders (in the right section)
+dock_folders:
+  - ~/Downloads
+  - Documents:
+    dest: ~/Documents
+    sort: datemodified
