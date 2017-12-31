@@ -24,7 +24,7 @@ are implemented:
 Run the following in terminal:
 
 ```bash
-git clone https://github.com/patsoffice/~/ansible-mac-setup.git
+git clone https://github.com/patsoffice/ansible-mac-setup.git
 cd ~/ansible-mac-setup
 ./bootstrap.sh
 ./mac-setup.sh
