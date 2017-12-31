@@ -1,14 +1,20 @@
 ---
 homebrew_installed_packages:
+  - ansible
   - awscli
+  - cask-repair
   - dockutil
   - git
+  - gnupg
   - go
-  # - go-swagger
+  - go-swagger
   - htop
+  - llvm
+  - lame
   - loginitems
   - mas
   - nasm
+  - pngcrush
   - qemu
   - rsync
   - rust

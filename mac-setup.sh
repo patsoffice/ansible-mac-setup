@@ -34,10 +34,10 @@ then
 fi
 
 # Install Ansible (using pip is the officially supported way)
-if ! pip3 show ansible > /dev/null 2>&1
+if ! brew list ansible > /dev/null 2>&1
 then
     echo -e "${BLUE}Installing Ansible${ENDC}"
-    pip3 install git+git://github.com/ansible/ansible.git@stable-2.4
+    brew install ansible
 fi
 
 # Install Ansible galaxy requirements

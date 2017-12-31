@@ -7,5 +7,7 @@ dotfiles_files:
   - .config/karabiner
   - .gitconfig
   - .gitignore
+  - .hammerspoon/init.lua
+  - .hammerspoon/Spoons/SpoonInstall.spoon
   - .vimrc
   - .zshrc

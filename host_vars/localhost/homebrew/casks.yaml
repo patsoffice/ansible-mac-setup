@@ -1,31 +1,40 @@
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - 1password
-  # - adobe-illustrator-cc
-  # - adobe-indesign-cc
-  # - adobe-photoshop-cc
   - aerial
   - alfred
-  # - amazon-music
-  # - blender
-  # - calibre
-  # - clover-configurator
+  - amazon-music
+  - blender
+  - calibre
+  - clover-configurator
+  - cura
   - disk-inventory-x
   - docker
+  - etcher
   - font-menlo-for-powerline
-  # - gimp
+  - fritzing
+  - gimp
   - google-chrome
+  - hammerspoon
   - handbrake
   - iterm2
-  # - java
+  - java
   - karabiner-elements
-  # - makemkv
+  - keybase
+  - macdown
+  - makemkv
+  - obs
   - odrive
+  - omnidisksweeper
+  - openscad
   - slack
-  # - steam
+  - steam
   - sublime-text
-  # - transmission
-  # - unity
-  # - vlc
-  # - vmware-fusion
+  - transmission
+  - twitch
+  - unity
+  - vlc
+  - vmware-fusion
   - vnc-viewer
+  - zcash4mac
+  
