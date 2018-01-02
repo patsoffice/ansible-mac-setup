@@ -7,12 +7,10 @@ homebrew_cask_apps:
   - blender
   - calibre
   - clover-configurator
-  - cura
   - disk-inventory-x
   - docker
   - etcher
   - font-menlo-for-powerline
-  - fritzing
   - gimp
   - google-chrome
   - hammerspoon
@@ -37,4 +35,3 @@ homebrew_cask_apps:
   - vmware-fusion
   - vnc-viewer
   - zcash4mac
-  
