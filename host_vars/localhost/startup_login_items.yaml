@@ -1,6 +1,7 @@
 ---
 startup_login_items:
   - Alfred 3
+  - Hammerspoon
   - Karabiner-Elements
   - Moom
   - odrive

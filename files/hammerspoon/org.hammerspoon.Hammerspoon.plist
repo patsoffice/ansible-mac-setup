@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>MJHasRunAlreadyKey_958</key>
+        <true/>
+        <key>MJShowDockIconKey</key>
+        <false/>
+        <key>MJShowMenuIconKey</key>
+        <true/>
+        <key>MJSkipDockMenuIconProblemAlertKey</key>
+        <true/>
+        <key>NSToolbar Configuration Console Default</key>
+        <dict>
+                <key>TB Display Mode</key>
+                <integer>1</integer>
+                <key>TB Icon Size Mode</key>
+                <integer>1</integer>
+                <key>TB Is Shown</key>
+                <integer>1</integer>
+                <key>TB Size Mode</key>
+                <integer>1</integer>
+        </dict>
+        <key>NSWindow Frame console</key>
+        <string>604 428 510 411 0 0 1440 877 </string>
+        <key>NSWindow Frame prefs</key>
+        <string>517 429 406 318 0 0 1440 877 </string>
+        <key>SUHasLaunchedBefore</key>
+        <true/>
+        <key>SULastCheckTime</key>
+        <date>2018-01-02T03:43:00Z</date>
+</dict>
+</plist>

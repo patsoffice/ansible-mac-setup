@@ -1,0 +1,6 @@
+---
+- name: install Hammerspoon preferences
+  copy:
+    src: hammerspoon/
+    dest: ~/Library/Preferences
+    mode: 0600
