@@ -12,6 +12,7 @@ homebrew_cask_apps:
   - etcher
   - font-menlo-for-powerline
   - gimp
+  - godot
   - google-chrome
   - hammerspoon
   - handbrake
@@ -25,14 +26,16 @@ homebrew_cask_apps:
   - odrive
   - omnidisksweeper
   - openscad
+  - prusa-slic3r
   - slack
   - steam
   - sublime-text
   - transmission
   - twitch
+  - typora
   - unity
   - vanilla
+  - visual-studio-code
   - vlc
   - vmware-fusion
   - vnc-viewer
-  - zcash4mac
