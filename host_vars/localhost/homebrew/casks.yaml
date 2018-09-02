@@ -10,6 +10,7 @@ homebrew_cask_apps:
   - disk-inventory-x
   - docker
   - etcher
+  - flightgear
   - font-menlo-for-powerline
   - gimp
   - godot

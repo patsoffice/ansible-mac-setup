@@ -14,6 +14,8 @@
 	<key>ProgramArguments</key>
 	<array>
 		<string>/usr/local/bin/unison</string>
+		<string>-auto</string>
+		<string>-batch</string>
 		<string>default</string>
 	</array>
 	<key>RunAtLoad</key>

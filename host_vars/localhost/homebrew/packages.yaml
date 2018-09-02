@@ -1,27 +1,43 @@
 ---
 homebrew_installed_packages:
+  - ack
+  - ag
   - ansible
   - awscli
+  - bat
   - cask-repair
+  - diff-so-fancy
   - dockutil
+  - exercism
+  - fd
+  - fzf
   - git
   - gnupg
   - go
   - go-swagger
+  - hr
   - htop
-  - llvm
+  - hub
+  - jq
   - lame
+  - llvm
   - loginitems
   - mas
   - nasm
+  - ncdu
   - pngcrush
+  - prettyping
   - qemu
   - rsync
   - rust
+  - tldr
+  - unison
+  - unison-fsmonitor
   - vim:
     name: vim
     options: with-lua
-  - unison
+  - wireguard-go
+  - wireguard-tools
   - wget
   - xz
   - zsh-completions

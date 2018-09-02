@@ -14,4 +14,5 @@ homebrew_taps:
   - homebrew/dupes
   - homebrew/versions
   - OJFord/formulae
+  - patsoffice/tools
   - vitorgalvao/tiny-scripts
