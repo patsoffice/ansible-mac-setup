@@ -9,6 +9,7 @@ homebrew_cask_apps:
   - clover-configurator
   - disk-inventory-x
   - docker
+  - epic-games
   - etcher
   - flightgear
   - font-menlo-for-powerline
@@ -21,6 +22,7 @@ homebrew_cask_apps:
   - java
   - karabiner-elements
   - keybase
+  - kitematic
   - macdown
   - makemkv
   - obs
@@ -29,6 +31,7 @@ homebrew_cask_apps:
   - openscad
   - prusa-slic3r
   - slack
+  - ssh-tunnel-manager
   - steam
   - sublime-text
   - transmission
