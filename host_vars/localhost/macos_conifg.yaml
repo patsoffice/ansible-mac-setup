@@ -54,12 +54,14 @@ macos_os_defaults:
       # Point & Click / Secondary click
       MouseButtonMode: TwoButton
 
+  # TODO(patsoffice) -- this does not appear to be working
   # System Preferences / App Store
-  - domain: /Library/Preferences/com.apple.SoftwareUpdate.plist
-    values:
-      # Disable 'Download newly available updates in the background'
-      AutomaticDownload: false
-    become: yes
+  # - domain: /Library/Preferences/com.apple.SoftwareUpdate.plist
+  #   values:
+  #     # Disable 'Download newly available updates in the background'
+  #     AutomaticDownload: false
+  #     AutomaticallyInstallMacOSUpdates: false
+  #   become: yes
 
   # Launch Services
   - domain: com.apple.LaunchServices

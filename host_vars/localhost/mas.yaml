@@ -2,6 +2,5 @@
 mas_signin_dialog: no
 mas_upgrade_all_apps: yes
 mas_installed_apps:
-  - { id: 419330170, name: "Moom" }
   - { id: 1236045954, name: "Canary Mail - Secure Email App" }
-  - { id: 497799835, name: "Xcode" }
+  # - { id: 497799835, name: "Xcode" }

@@ -26,9 +26,9 @@ fi
 if ! brew list unison > /dev/null 2>&1
 then
     echo -e "${BLUE}Installing Unison.x${ENDC}"
-    brew install unison
+#    brew install unison
 fi
 
 # Run Unison copying the homebrew data over so we don't have to download it all
 # from the internet.
-unison /Users/${USER} ssh://hetfield.patsoffice.com//home/${USER} -auto -path Library/Caches/Homebrew -ignore 'Name {Cache*,.Trash*,.VolumeIcon.icns,.HSicon,Temporary*,.Temporary*,TheFindByContentFolder,TheVolumeSettingsFolder,.Metadata,.filler,.idsff,.Spotlight,.DS_Store,.CFUserTextEncoding}'
+# unison /Users/${USER} ssh://hetfield.patsoffice.com//home/${USER} -auto -path Library/Caches/Homebrew -ignore 'Name {Cache*,.Trash*,.VolumeIcon.icns,.HSicon,Temporary*,.Temporary*,TheFindByContentFolder,TheVolumeSettingsFolder,.Metadata,.filler,.idsff,.Spotlight,.DS_Store,.CFUserTextEncoding}'

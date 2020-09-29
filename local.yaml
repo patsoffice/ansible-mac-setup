@@ -7,16 +7,13 @@
     - geerlingguy.homebrew
     - geerlingguy.dotfiles
     - geerlingguy.mas
-    - hnakamur.osx-login-shell  # Set the shell to zsh
+    # - hnakamur.osx-login-shell  # Set the shell to zsh
     # Set up applications
     - aerial
     - alfred3
     - iterm2
-    - moom
     - ohmyzsh
     - ssh
-    - sublime_text
-    - unison
     - vim
     # Configure macOS
     - macos_config

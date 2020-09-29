@@ -1,20 +1,20 @@
 ---
 # Dock applications
 dock_apps:
-  - iTerm
-  - 1Password 6
-  - Google Chrome
-  - Sublime Text
-  - Canary Mail
-  - Slack
-  - Amazon Music
-  - Steam
-  - Godot
-  - Unity/Unity
-  - Blender
-  - Messages
-  - App Store
-  - System Preferences
+  - /Applications/iTerm.app
+  - /Applications/1Password 7.app
+  - /Applications/Google Chrome.app
+  - /Applications/Visual Studio Code.app
+  - /Applications/Canary Mail.app
+  - /Applications/Slack.app
+  - /Applications/Amazon Music.app
+  - /Applications/Steam.app
+  - /Applications/Godot.app
+  - /Applications/Unity/Unity.app
+  - /Applications/Blender.app
+  - /System/Applications/Messages.app
+  - /System/Applications/App Store.app
+  - /System/Applications/System Preferences.app
 
 # Dock folders (in the right section)
 dock_folders:

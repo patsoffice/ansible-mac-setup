@@ -2,16 +2,12 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - 1password
   - aerial
-  - alfred
+  - alfred3
   - amazon-music
+  - balenaetcher
   - blender
   - calibre
-  - clover-configurator
-  - disk-inventory-x
   - docker
-  - epic-games
-  - etcher
-  - flightgear
   - font-menlo-for-powerline
   - gimp
   - godot
@@ -19,21 +15,17 @@ homebrew_cask_apps:
   - hammerspoon
   - handbrake
   - iterm2
-  - java
+  - homebrew/cask-versions/adoptopenjdk8
   - karabiner-elements
   - keybase
-  - kitematic
-  - macdown
   - makemkv
-  - obs
+  - obsidian
   - odrive
-  - omnidisksweeper
   - openscad
-  - prusa-slic3r
+  - prusaslicer
   - slack
   - ssh-tunnel-manager
   - steam
-  - sublime-text
   - transmission
   - twitch
   - typora
@@ -41,5 +33,3 @@ homebrew_cask_apps:
   - vanilla
   - visual-studio-code
   - vlc
-  - vmware-fusion
-  - vnc-viewer

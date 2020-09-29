@@ -31,8 +31,6 @@ homebrew_installed_packages:
   - rsync
   - rust
   - tldr
-  - unison
-  - unison-fsmonitor
   - vim:
     name: vim
     options: with-lua

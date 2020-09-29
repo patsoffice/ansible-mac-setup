@@ -4,7 +4,7 @@
   changed_when: false
 
 - name: add apps to the dock
-  command: "dockutil --add '/Applications/{{ item }}.app' --no-restart"
+  command: "dockutil --add '{{ item }}' --no-restart"
   changed_when: false
   with_items: "{{ dock_apps }}"
 
